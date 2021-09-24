@@ -38,6 +38,7 @@ public class BaseTest {
 	public void beforeTest(String Browser) {
 		String path = System.getProperty("user.dir");
 		System.out.println(ElementUtil.getPropertyValue("chromepath"));
+		System.out.print("browser");
 		if (Browser.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", path + ElementUtil.getPropertyValue("chromepath"));
 
