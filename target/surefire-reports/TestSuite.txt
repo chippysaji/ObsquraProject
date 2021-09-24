@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 12, Time elapsed: 124.118 s <<< FAILURE! - in TestSuite
+com.reobeen.qa.testcase.ContactTest.beforeTest[chrome](0)  Time elapsed: 114.466 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7BGC73VB', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0124A2D3+2663123]
+	Ordinal0 [0x011DA491+2204817]
+	Ordinal0 [0x010C1FE0+1056736]
+	Ordinal0 [0x010B6F95+1011605]
+	Ordinal0 [0x010DFD61+1178977]
+	Ordinal0 [0x010DC335+1164085]
+	Ordinal0 [0x010D9B7F+1153919]
+	Ordinal0 [0x01109D8F+1351055]
+	Ordinal0 [0x011099FA+1350138]
+	Ordinal0 [0x0110589B+1333403]
+	Ordinal0 [0x010E1F74+1187700]
+	Ordinal0 [0x010E2DC9+1191369]
+	GetHandleVerifier [0x013E30D6+1610054]
+	GetHandleVerifier [0x0148B53B+2299307]
+	GetHandleVerifier [0x012D8DA9+519705]
+	GetHandleVerifier [0x012D7759+513993]
+	Ordinal0 [0x011E112D+2232621]
+	Ordinal0 [0x011E55F8+2250232]
+	Ordinal0 [0x011E5732+2250546]
+	Ordinal0 [0x011EE591+2286993]
+	BaseThreadInitThunk [0x76B9FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x770B7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x770B7A6E+238]
+
+
+com.reobeen.qa.testcase.ContactTest.after  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+

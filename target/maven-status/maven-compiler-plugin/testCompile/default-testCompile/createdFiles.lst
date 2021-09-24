@@ -1,0 +1,8 @@
+com\reobeen\qa\testcase\BaseTest.class
+com\reobeen\qa\testcase\PaymentTest.class
+com\reobeen\qa\testcase\UserManagmentTest.class
+com\reobeen\qa\testcase\ProductTest.class
+com\reobeen\qa\testcase\ContactTest.class
+com\reobeen\qa\testcase\LoginTest.class
+com\reobeen\qa\testcase\PurchaseTest.class
+com\reobeen\qa\testcase\HomeTest.class

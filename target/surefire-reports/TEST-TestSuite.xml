@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="124.118" tests="14" errors="0" skipped="12" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\HP\eclipse-workspace\ObsquraMainProject/src/test/resources/Drivers/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\HP\eclipse-workspace\ObsquraMainProject\target\test-classes;C:\Users\HP\eclipse-workspace\ObsquraMainProject\target\classes;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\HP\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\HP\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\HP\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\HP\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\HP\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\HP\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\HP\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\HP\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\HP\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire326454995633408587\surefirebooter1965015760662757089.jar C:\Users\HP\AppData\Local\Temp\surefire326454995633408587 2021-09-21T09-21-11_125-jvmRun1 surefire4517952537576302576tmp surefire_04500695000276079112tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\HP\eclipse-workspace\ObsquraMainProject\target\test-classes;C:\Users\HP\eclipse-workspace\ObsquraMainProject\target\classes;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\HP\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\HP\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\HP\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\HP\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\HP\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\HP\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\HP\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\HP\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\HP\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="basedir" value="C:\Users\HP\eclipse-workspace\ObsquraMainProject"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire326454995633408587\surefirebooter1965015760662757089.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="HP"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="user.dir" value="C:\Users\HP\eclipse-workspace\ObsquraMainProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\HP\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\HP\AppData\Local\Programs\Python\Python38\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-16\bin;C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files (x86)\Git\cmd;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="beforeTest[chrome](0)" classname="com.reobeen.qa.testcase.ContactTest" time="114.466">
+    <failure message="chrome not reachable&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-7BGC73VB&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0124A2D3+2663123]&#10;	Ordinal0 [0x011DA491+2204817]&#10;	Ordinal0 [0x010C1FE0+1056736]&#10;	Ordinal0 [0x010B6F95+1011605]&#10;	Ordinal0 [0x010DFD61+1178977]&#10;	Ordinal0 [0x010DC335+1164085]&#10;	Ordinal0 [0x010D9B7F+1153919]&#10;	Ordinal0 [0x01109D8F+1351055]&#10;	Ordinal0 [0x011099FA+1350138]&#10;	Ordinal0 [0x0110589B+1333403]&#10;	Ordinal0 [0x010E1F74+1187700]&#10;	Ordinal0 [0x010E2DC9+1191369]&#10;	GetHandleVerifier [0x013E30D6+1610054]&#10;	GetHandleVerifier [0x0148B53B+2299307]&#10;	GetHandleVerifier [0x012D8DA9+519705]&#10;	GetHandleVerifier [0x012D7759+513993]&#10;	Ordinal0 [0x011E112D+2232621]&#10;	Ordinal0 [0x011E55F8+2250232]&#10;	Ordinal0 [0x011E5732+2250546]&#10;	Ordinal0 [0x011EE591+2286993]&#10;	BaseThreadInitThunk [0x76B9FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x770B7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x770B7A6E+238]&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+chrome not reachable
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7BGC73VB', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0124A2D3+2663123]
+	Ordinal0 [0x011DA491+2204817]
+	Ordinal0 [0x010C1FE0+1056736]
+	Ordinal0 [0x010B6F95+1011605]
+	Ordinal0 [0x010DFD61+1178977]
+	Ordinal0 [0x010DC335+1164085]
+	Ordinal0 [0x010D9B7F+1153919]
+	Ordinal0 [0x01109D8F+1351055]
+	Ordinal0 [0x011099FA+1350138]
+	Ordinal0 [0x0110589B+1333403]
+	Ordinal0 [0x010E1F74+1187700]
+	Ordinal0 [0x010E2DC9+1191369]
+	GetHandleVerifier [0x013E30D6+1610054]
+	GetHandleVerifier [0x0148B53B+2299307]
+	GetHandleVerifier [0x012D8DA9+519705]
+	GetHandleVerifier [0x012D7759+513993]
+	Ordinal0 [0x011E112D+2232621]
+	Ordinal0 [0x011E55F8+2250232]
+	Ordinal0 [0x011E5732+2250546]
+	Ordinal0 [0x011EE591+2286993]
+	BaseThreadInitThunk [0x76B9FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x770B7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x770B7A6E+238]
+
+]]></failure>
+    <system-out><![CDATA[/src/test/resources/Drivers/chromedriver.exe
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 38671
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactDetails" classname="com.reobeen.qa.testcase.ContactTest" time="0">
+    <skipped message="chrome not reachable&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-7BGC73VB&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0124A2D3+2663123]&#10;	Ordinal0 [0x011DA491+2204817]&#10;	Ordinal0 [0x010C1FE0+1056736]&#10;	Ordinal0 [0x010B6F95+1011605]&#10;	Ordinal0 [0x010DFD61+1178977]&#10;	Ordinal0 [0x010DC335+1164085]&#10;	Ordinal0 [0x010D9B7F+1153919]&#10;	Ordinal0 [0x01109D8F+1351055]&#10;	Ordinal0 [0x011099FA+1350138]&#10;	Ordinal0 [0x0110589B+1333403]&#10;	Ordinal0 [0x010E1F74+1187700]&#10;	Ordinal0 [0x010E2DC9+1191369]&#10;	GetHandleVerifier [0x013E30D6+1610054]&#10;	GetHandleVerifier [0x0148B53B+2299307]&#10;	GetHandleVerifier [0x012D8DA9+519705]&#10;	GetHandleVerifier [0x012D7759+513993]&#10;	Ordinal0 [0x011E112D+2232621]&#10;	Ordinal0 [0x011E55F8+2250232]&#10;	Ordinal0 [0x011E5732+2250546]&#10;	Ordinal0 [0x011EE591+2286993]&#10;	BaseThreadInitThunk [0x76B9FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x770B7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x770B7A6E+238]&#10;"/>
+  </testcase>
+  <testcase name="takeScreenshotOnFailure" classname="com.reobeen.qa.testcase.ContactTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="takeScreenshotOnFailure" classname="com.reobeen.qa.testcase.ContactTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="takeScreenshotOnFailure" classname="com.reobeen.qa.testcase.ContactTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="takeScreenshotOnFailure" classname="com.reobeen.qa.testcase.ContactTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="takeScreenshotOnFailure" classname="com.reobeen.qa.testcase.ContactTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="takeScreenshotOnFailure" classname="com.reobeen.qa.testcase.ContactTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyUploadContact" classname="com.reobeen.qa.testcase.ContactTest" time="0">
+    <skipped message="chrome not reachable&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-7BGC73VB&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0124A2D3+2663123]&#10;	Ordinal0 [0x011DA491+2204817]&#10;	Ordinal0 [0x010C1FE0+1056736]&#10;	Ordinal0 [0x010B6F95+1011605]&#10;	Ordinal0 [0x010DFD61+1178977]&#10;	Ordinal0 [0x010DC335+1164085]&#10;	Ordinal0 [0x010D9B7F+1153919]&#10;	Ordinal0 [0x01109D8F+1351055]&#10;	Ordinal0 [0x011099FA+1350138]&#10;	Ordinal0 [0x0110589B+1333403]&#10;	Ordinal0 [0x010E1F74+1187700]&#10;	Ordinal0 [0x010E2DC9+1191369]&#10;	GetHandleVerifier [0x013E30D6+1610054]&#10;	GetHandleVerifier [0x0148B53B+2299307]&#10;	GetHandleVerifier [0x012D8DA9+519705]&#10;	GetHandleVerifier [0x012D7759+513993]&#10;	Ordinal0 [0x011E112D+2232621]&#10;	Ordinal0 [0x011E55F8+2250232]&#10;	Ordinal0 [0x011E5732+2250546]&#10;	Ordinal0 [0x011EE591+2286993]&#10;	BaseThreadInitThunk [0x76B9FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x770B7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x770B7A6E+238]&#10;"/>
+  </testcase>
+  <testcase name="verifyEditCustomerDetails[Anantarathomas](1)" classname="com.reobeen.qa.testcase.ContactTest" time="0">
+    <skipped message="chrome not reachable&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-7BGC73VB&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0124A2D3+2663123]&#10;	Ordinal0 [0x011DA491+2204817]&#10;	Ordinal0 [0x010C1FE0+1056736]&#10;	Ordinal0 [0x010B6F95+1011605]&#10;	Ordinal0 [0x010DFD61+1178977]&#10;	Ordinal0 [0x010DC335+1164085]&#10;	Ordinal0 [0x010D9B7F+1153919]&#10;	Ordinal0 [0x01109D8F+1351055]&#10;	Ordinal0 [0x011099FA+1350138]&#10;	Ordinal0 [0x0110589B+1333403]&#10;	Ordinal0 [0x010E1F74+1187700]&#10;	Ordinal0 [0x010E2DC9+1191369]&#10;	GetHandleVerifier [0x013E30D6+1610054]&#10;	GetHandleVerifier [0x0148B53B+2299307]&#10;	GetHandleVerifier [0x012D8DA9+519705]&#10;	GetHandleVerifier [0x012D7759+513993]&#10;	Ordinal0 [0x011E112D+2232621]&#10;	Ordinal0 [0x011E55F8+2250232]&#10;	Ordinal0 [0x011E5732+2250546]&#10;	Ordinal0 [0x011EE591+2286993]&#10;	BaseThreadInitThunk [0x76B9FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x770B7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x770B7A6E+238]&#10;"/>
+  </testcase>
+  <testcase name="verifyDeleteCustomerDetails" classname="com.reobeen.qa.testcase.ContactTest" time="0">
+    <skipped message="chrome not reachable&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-7BGC73VB&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0124A2D3+2663123]&#10;	Ordinal0 [0x011DA491+2204817]&#10;	Ordinal0 [0x010C1FE0+1056736]&#10;	Ordinal0 [0x010B6F95+1011605]&#10;	Ordinal0 [0x010DFD61+1178977]&#10;	Ordinal0 [0x010DC335+1164085]&#10;	Ordinal0 [0x010D9B7F+1153919]&#10;	Ordinal0 [0x01109D8F+1351055]&#10;	Ordinal0 [0x011099FA+1350138]&#10;	Ordinal0 [0x0110589B+1333403]&#10;	Ordinal0 [0x010E1F74+1187700]&#10;	Ordinal0 [0x010E2DC9+1191369]&#10;	GetHandleVerifier [0x013E30D6+1610054]&#10;	GetHandleVerifier [0x0148B53B+2299307]&#10;	GetHandleVerifier [0x012D8DA9+519705]&#10;	GetHandleVerifier [0x012D7759+513993]&#10;	Ordinal0 [0x011E112D+2232621]&#10;	Ordinal0 [0x011E55F8+2250232]&#10;	Ordinal0 [0x011E5732+2250546]&#10;	Ordinal0 [0x011EE591+2286993]&#10;	BaseThreadInitThunk [0x76B9FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x770B7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x770B7A6E+238]&#10;"/>
+  </testcase>
+  <testcase name="verifyViewContactDetails" classname="com.reobeen.qa.testcase.ContactTest" time="0">
+    <skipped message="chrome not reachable&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-7BGC73VB&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0124A2D3+2663123]&#10;	Ordinal0 [0x011DA491+2204817]&#10;	Ordinal0 [0x010C1FE0+1056736]&#10;	Ordinal0 [0x010B6F95+1011605]&#10;	Ordinal0 [0x010DFD61+1178977]&#10;	Ordinal0 [0x010DC335+1164085]&#10;	Ordinal0 [0x010D9B7F+1153919]&#10;	Ordinal0 [0x01109D8F+1351055]&#10;	Ordinal0 [0x011099FA+1350138]&#10;	Ordinal0 [0x0110589B+1333403]&#10;	Ordinal0 [0x010E1F74+1187700]&#10;	Ordinal0 [0x010E2DC9+1191369]&#10;	GetHandleVerifier [0x013E30D6+1610054]&#10;	GetHandleVerifier [0x0148B53B+2299307]&#10;	GetHandleVerifier [0x012D8DA9+519705]&#10;	GetHandleVerifier [0x012D7759+513993]&#10;	Ordinal0 [0x011E112D+2232621]&#10;	Ordinal0 [0x011E55F8+2250232]&#10;	Ordinal0 [0x011E5732+2250546]&#10;	Ordinal0 [0x011EE591+2286993]&#10;	BaseThreadInitThunk [0x76B9FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x770B7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x770B7A6E+238]&#10;"/>
+  </testcase>
+  <testcase name="verifyCustomerDetails[Mary, 6512347890](1)" classname="com.reobeen.qa.testcase.ContactTest" time="0">
+    <skipped message="chrome not reachable&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-7BGC73VB&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0124A2D3+2663123]&#10;	Ordinal0 [0x011DA491+2204817]&#10;	Ordinal0 [0x010C1FE0+1056736]&#10;	Ordinal0 [0x010B6F95+1011605]&#10;	Ordinal0 [0x010DFD61+1178977]&#10;	Ordinal0 [0x010DC335+1164085]&#10;	Ordinal0 [0x010D9B7F+1153919]&#10;	Ordinal0 [0x01109D8F+1351055]&#10;	Ordinal0 [0x011099FA+1350138]&#10;	Ordinal0 [0x0110589B+1333403]&#10;	Ordinal0 [0x010E1F74+1187700]&#10;	Ordinal0 [0x010E2DC9+1191369]&#10;	GetHandleVerifier [0x013E30D6+1610054]&#10;	GetHandleVerifier [0x0148B53B+2299307]&#10;	GetHandleVerifier [0x012D8DA9+519705]&#10;	GetHandleVerifier [0x012D7759+513993]&#10;	Ordinal0 [0x011E112D+2232621]&#10;	Ordinal0 [0x011E55F8+2250232]&#10;	Ordinal0 [0x011E5732+2250546]&#10;	Ordinal0 [0x011EE591+2286993]&#10;	BaseThreadInitThunk [0x76B9FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x770B7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x770B7A6E+238]&#10;"/>
+  </testcase>
+  <testcase name="after" classname="com.reobeen.qa.testcase.ContactTest" time="0.001">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+  </testcase>
+</testsuite>
